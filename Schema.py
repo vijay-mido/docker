@@ -6,3 +6,6 @@ class create_user(BaseModel):
     
 class update_user(create_user):
     pass
+
+class Delete_user(create_user):
+    id:str
